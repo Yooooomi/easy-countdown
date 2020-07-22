@@ -39,10 +39,14 @@ services:
 
 ## Without docker
 
-Use `yarn` to use the start script from the 
-`package.json`. Simply use `yarn start`. Use the variables above in the env to personalize your countdown
+> This method builds the project following the env variables you gave, producing a `build` folder that has to be server manually afterwards. You can use [`serve`](https://www.npmjs.com/package/serve) to achieve it
+
+Use `yarn` to use the build script from the 
+`package.json`. Simply use `yarn build`. Use the variables above in the env to personalize your countdown
 
 - `npm install`
-- `yarn start`
+- `TIMER_TITLE="example" yarn build`
 
-I.E: `TIMER_TARGET="Fri Oct 01 2021 15:33:36 GMT+0200" yarn start`
+> Variables will be taken from env, and are the same as above
+
+I.E: `TIMER_TARGET="Fri Oct 01 2021 15:33:36 GMT+0200" yarn build && serve -s -l tcp://0.0.0.0:3000 build/`
