@@ -1,3 +1,4 @@
+![Client CI](https://github.com/Yooooomi/easy-countdown/workflows/Client%20CI/badge.svg)
 
 # Easy countdown
 
