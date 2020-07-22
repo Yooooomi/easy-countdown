@@ -1,4 +1,6 @@
 
+![image](https://user-images.githubusercontent.com/17204739/88192422-ca28d880-cc3c-11ea-8b88-17ecb72d16ad.png)
+
 # Easy countdown
 
 Easy countdown is an easy to setup countdown page. Can be setup as a countdown or as a timer
