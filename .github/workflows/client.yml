@@ -3,9 +3,8 @@ name: Client CI
 
 on:
   push:
-    paths:
-      - ./**
-      - .github/workflows/client.yml
+    paths-ignore:
+      - 'README.md'
     branches:
       - master
 
