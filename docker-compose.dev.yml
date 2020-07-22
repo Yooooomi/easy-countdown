@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  web:
+    build:
+      args:
+        ENVIRONMENT: "DEV"
+    command: yarn start
+    volumes:
+      - "./src/:/app/src/"
+      - "./public/:/app/public/"

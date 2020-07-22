@@ -1,0 +1,36 @@
+
+
+.root {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.blocks {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.block {
+    margin-right: 15px;
+}
+
+@media only screen and (max-width: 1020px) {
+    .blocks {
+        flex-direction: column;
+    }
+    .block {
+        margin-bottom: 15px;
+    }
+}

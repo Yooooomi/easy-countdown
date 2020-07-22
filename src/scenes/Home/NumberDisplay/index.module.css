@@ -1,0 +1,24 @@
+
+.value {
+    position: relative;
+    height: 100px;
+    width: 70px;
+    font-size: 100px;
+    overflow: hidden;
+}
+
+.numbercontainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition: all 800ms;
+}
+
+.number {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+}
