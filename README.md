@@ -39,7 +39,7 @@ services:
 
 ## Without docker
 
-> This method builds the project following the env variables you gave, producing a `build` folder that has to be server manually afterwards. You can use [`serve`](https://www.npmjs.com/package/serve) to achieve it
+> This method builds the project following the env variables you gave, producing a `build` folder that has to be served manually afterwards. You can use [`serve`](https://www.npmjs.com/package/serve) to achieve it
 
 Use `yarn` to use the build script from the 
 `package.json`. Simply use `yarn build`. Use the variables above in the env to personalize your countdown
