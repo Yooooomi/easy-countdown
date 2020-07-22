@@ -42,4 +42,7 @@ services:
 Use `yarn` to use the start script from the 
 `package.json`. Simply use `yarn start`. Use the variables above in the env to personalize your countdown
 
+- `npm install`
+- `yarn start`
+
 I.E: `TIMER_TARGET="Fri Oct 01 2021 15:33:36 GMT+0200" yarn start`
