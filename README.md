@@ -1,6 +1,6 @@
 ![Client CI](https://github.com/Yooooomi/easy-countdown/workflows/Client%20CI/badge.svg)
 
-![image](https://user-images.githubusercontent.com/17204739/88192422-ca28d880-cc3c-11ea-8b88-17ecb72d16ad.png)
+![gif](https://user-images.githubusercontent.com/17204739/88205741-825e7d00-cc4d-11ea-81c3-92e42d197346.gif)
 
 # Easy countdown
 
